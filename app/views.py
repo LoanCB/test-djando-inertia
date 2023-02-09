@@ -3,7 +3,7 @@ from inertia import render
 
 
 def index(request):
-    return render(request, "Index", props={"name": "World"})
+    return render(request, "Index", props={"name": "Test"})
 
 
 def about(request):
